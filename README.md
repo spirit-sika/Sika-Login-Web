@@ -1,5 +1,5 @@
 # 描述
-这是一个 Sika前后端项目登录模型 的前端实现部分, 后端项目请访问[后端地址]((https://github.com/spirit-sika/Sika-Login-Boot)
+这是一个 Sika前后端项目登录模型 的前端实现部分, 后端项目请访问[后端地址](https://github.com/spirit-sika/Sika-Login-Boot)
 
 ## 登录流程分析
 1. 登录页面请求验证码接口
@@ -13,21 +13,15 @@
 9. 根据用户id获取到用户信息后添加到 `SaToken` 所提供的登录会话中
 10. 利用 `SaToken` 获取用户对应的 `Token` 字符串返回到前端
 
-# sika-login-web
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 相关技术
+1. [vue3](https://cn.vuejs.org/), [仓库地址](https://cn.vuejs.org/)
+2. [typescript](https://www.typescriptlang.org/), [仓库地址](https://github.com/microsoft/TypeScript)
+3. [pnpm](https://pnpm.io/), [仓库地址](https://github.com/pnpm/pnpm)
+4. [axios](https://axios-http.com/), [仓库地址](https://github.com/axios/axios)
+5. [ant-design](https://www.antdv.com/components/overview), [仓库地址](https://www.antdv.com/components/overview)
+6. [vite5](https://cn.vitejs.dev/), [仓库地址](https://github.com/vitejs/vite)
+7. [vue-router4](https://router.vuejs.org/), [仓库地址](https://github.com/vuejs/router)
+8. [pinia](https://pinia.vuejs.org/), [仓库地址](https://github.com/vuejs/pinia)
 
 ## Project Setup
 
